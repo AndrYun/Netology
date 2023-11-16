@@ -1,11 +1,11 @@
-function Toolbar({ filters, selected, onSelectedFilter }) {
+function Toolbar({ filters, selected, onSelectFilter }) {
     return (
         <>
             {filters.map((filter) => (
                 <button
                 key={filter}
                 className={`button btn-${filter.toLowerCase()}`}
-                onClick={onSelectedFilter}
+                onClick={onSelectFilter}
                 >
                 {filter}
                 </button>
