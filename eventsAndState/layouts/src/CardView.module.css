@@ -1,0 +1,16 @@
+.cardView__wrapp {
+  display: flex;
+  /* width: 1440px; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.cardView__container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 30px;
+  row-gap: 50px;
+  padding: 10px;
+}

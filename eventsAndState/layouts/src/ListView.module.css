@@ -1,0 +1,4 @@
+.listView__container {
+  display: grid;
+  gap: 10px;
+}
