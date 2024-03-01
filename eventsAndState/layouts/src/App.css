@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
-
 .store__wrapp {
   display: flex;
+  width: 1440px;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  text-align: center;
 }

@@ -1,0 +1,15 @@
+.iconSwitch {
+  display: flex;
+  margin: 10px 0 0 900px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 20px;
+  height: 20px;
+  scale: 2;
+  transition: all 0.3s ease 0s;
+}
+
+.iconSwitch:hover {
+  scale: 2.1;
+  cursor: pointer;
+}
